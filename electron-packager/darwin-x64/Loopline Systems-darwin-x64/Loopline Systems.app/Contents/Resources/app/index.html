@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello World!</title>
+	</head>
+    
+	<body>
+    We are using io.js <script>document.write(process.version)</script>
+    and Electron <script>document.write(process.versions['electron'])</script>.
+    <br>
+    <style>
+	    #circle{
+	    	height: 100px;
+	    	width:100px;
+	    	border-radius:50px;
+	    	box-shadow:0px 1px 3px #000;
+	    	-webkit-animation: rs 4s linear infinite;
+	    }
+	    @-webkit-keyframes rs{
+	    	0%{ box-shadow:0px 15px 5px rgba(0,0,0,0.5) }
+	    	25%{ box-shadow:15px 0px 5px rgba(0,0,0,0.5);}
+	    	50%{ box-shadow:0px -15px 5px rgba(0,0,0,0.5);}
+	    	75%{ box-shadow:-15px 0px 5px rgba(0,0,0,0.5);}
+	    	100%{ box-shadow:0px 15px 5px rgba(0,0,0,0.5); }
+	    	
+	    }
+	</style>
+    <div id='circle'></div>
+  </body>
+</html>

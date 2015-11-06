@@ -1,0 +1,16 @@
+{
+  "osx" : {
+    "title": "Local clock",
+    "background": "assets/osx/installer.png",
+    "icon": "assets/osx/clock.icns",
+    "icon-size": 80,
+    "contents": [
+      { "x": 200, "y": 150, "type": "link", "path": "/Applications" },
+      { "x": 100, "y": 150, "type": "file" }
+    ]
+  },
+  "win" : {
+    "title" : "Local clock",
+    "icon" : "assets/win/icon.ico"
+  }
+}
